@@ -28,3 +28,8 @@ jobs:
           repositories: 100
           repositories_batch: 100
           repositories_forks: yes
+          plugin_reactions: yes
+          plugin_reactions_display: absolute
+          plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
+          plugin_reactions_limit: 200
+          plugin_reactions_limit_issues: 100

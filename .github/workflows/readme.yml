@@ -32,11 +32,11 @@ jobs:
           plugin_reactions: yes
           plugin_reactions_display: absolute
           plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
-          plugin_reactions_limit: 200
-          plugin_reactions_limit_issues: 100
+          plugin_reactions_limit: 1000
+          plugin_reactions_limit_issues: 1000
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_days: 365
           plugin_habits_facts: yes
-          plugin_habits_from: 1000
+          plugin_habits_from: 10000
           plugin_habits_trim: yes
